@@ -18,8 +18,6 @@ And:
 1)Clone the repository to your local machine.
 (migration is not needed).
 3)And you can start your local development server.
-That's it.
-
 And The site was deployed on pythonanywhere.com and here is the link if you want to visit it live : https://alpha3.pythonanywhere.com/
 
 
