@@ -1,4 +1,4 @@
-Nothing much, "AlphaNum.py" is just the python program that can Encrypt and Decrypt from words to numbers and vice versa. I created this almost a year ago(at that time I was quite beginner and it took lot of mental energy to create this from scratch), checked today, realized that the code was too long and quite inefficient. so, modified it a little bit, thought that it won't be any harm if I upload it here :) . so here it is. 
+Nothing much, "AlphaNum.py" is just a python program that can Encrypt and Decrypt from words to numbers and vice versa. I created this almost a year ago(at that time I was quite beginner and it took lot of mental energy to create this from scratch), checked today, realized that the code was too long and quite inefficient. so, modified it a little bit, thought that it won't be any harm if I upload it here :) . so here it is. 
 To run this you just copy paste it in your editor and run it. 
 <br>
 And I've also created a web version of this, meaning you doing the same thing as this program does, but directly through website and probably on some nice interface(at least much nicer than the this one).  
