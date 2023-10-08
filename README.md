@@ -1,8 +1,9 @@
 # Encryption Project
 I got to know about the Enigma code used by German troops in World War II and the machine
-that decrypted it. That night I thought lot about it.Wrote a program to
+that decrypted it. That night I thought a lot about it. Wrote a program to
 encrypt and decrypt messages. Found the old program on my PC and decided to make it website,
 doing the same encryption and decryption thing. You can see the site live here : https://alpha3.pythonanywhere.com/
+<br>
 This project was born out of fascination.
 
 ## Features
