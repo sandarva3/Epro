@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Decryption</title>
+ <style>
+   body {
+     font-family: Arial, sans-serif;
+     background-color: #f2f2f2;
+     padding: 20px;
+   }
+
+   h1 {
+     color: #333;
+     text-align: center;
+     margin-bottom: 20px;
+   }
+
+   form {
+     max-width: 400px;
+     margin: 0 auto;
+     background-color: #fff;
+     border: 1px solid #ccc;
+     padding: 20px;
+     border-radius: 5px;
+   }
+
+   label {
+     display: block;
+     font-weight: bold;
+     margin-bottom: 10px;
+   }
+
+   input[type="text"] {
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+   }
+
+   button[type="submit"] {
+    margin-top: 20px;
+    margin-left: 150px;
+     background-color: #4CAF50;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 3px;
+     cursor: pointer;
+   }
+
+   h2 {
+     margin-top: 20px;
+     color: #333;
+   }
+
+   p {
+     font-size: 18px;
+     margin-top: 10px;
+   }
+   .paste{
+    margin-left: 10px;
+   }
+ </style>
+</head>
+<body>
+<h1>Decryption / <a href="{% url 'encrypt' %}">Encryption</a></h1>
+<form method="post">
+{% csrf_token %}
+<label for="input_numbers">Enter numbers:<button class="paste">Paste</button></label>
+<input type="text" name="input_numbers" id="input_numbers" required>
+<button type="submit">Decrypt</button>
+</form>
+<h2>Decrypted Version:</h2>
+<p>{{ decrypted_text }}</p>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var pasteButton = document.querySelector('.paste');
+    var inputField = document.getElementById('input_numbers');
+
+    pasteButton.addEventListener('click', function() {
+      navigator.clipboard.readText().then(function(text) {
+        inputField.value = text;
+      }).catch(function(err) {
+        console.error('Failed to read clipboard contents: ', err);
+      });
+    });
+  });
+</script>
+</body>
+</html>
