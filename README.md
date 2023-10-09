@@ -27,11 +27,17 @@ To run Epro on your local machine, follow these steps:
 
 ## Contributing
 
-If you'd like to contribute to this project through some better modifications then I would really appreciate that.
-I would also apply those changes to the live website and link your username and GitHub profile there as a Contributor.
+If you'd like to contribute to this project through some better changes then it would be much appreciated. 
+If the changes are better enough then I would apply those changes to the live website and list your username and GitHub profile link as a contributor.
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
+## Acknowledgments
+There are people who poured their time and effort for creating and developing things that are very helpful for many of us. I am really thankful for them.
+
+The open-source community of people for providing libraries and tools used in this project.
+The people who made the necessary resources available for learning.
